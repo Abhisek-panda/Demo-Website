@@ -40,7 +40,11 @@ nav ul li {
 }
 
 .nav-link:hover {
-    color: 
+    color: black;
+}
+
+.nav-link:active {
+    font-weight: bold;
 }
 
 /* Image */
@@ -93,8 +97,9 @@ section {
 }
 
 .link-page:hover {
-    color: #3f3d56;
+    color: black;
 }
+
 
 /* Footer */
 
@@ -102,6 +107,8 @@ footer {
     font-family: PT Sans, sans-serif;
     background-color: var(--background-color);
     border-radius: 10px 0px 0px 0px;
+    margin-top: 2rem;
+    margin-bottom: 0px;
 }
 
 footer ul {
@@ -119,4 +126,8 @@ footer ul li {
 
 footer h3 {
     margin-bottom: 10px;;
+}
+
+.footer-link:hover{
+    color:black;
 }
