@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
+/* Navigation Bar */
 .nav-header {
     background-color: var(--primary-color);
     color: white;
@@ -29,6 +30,8 @@ nav ul li {
     margin-left: 3rem;
 }
 
+/* Body */
+
 #imgsvg {
     max-width: 400px;
     margin:auto;
@@ -51,6 +54,9 @@ h1 {
 .sect-tech {
     background-color: var(--secondary-color);
     color:white;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 .para-centre {
@@ -59,7 +65,31 @@ h1 {
 
 .link-page {
     text-decoration: none;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
+    max-width: 8rem;
+    margin: auto;
+    display: block;
 }
+
+#link-blog {
+    color:var(--background-color);
+    background-color: black;
+    
+}
+
+.link-page:hover {
+    color:white
+    ;
+}
+
+#link-blog:hover {
+    color:var(--primary-color);
+}
+
+#link-project {
+    background-color: var(--background-color)
+}
+
+/* Footer Section */
