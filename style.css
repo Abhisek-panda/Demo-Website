@@ -47,3 +47,19 @@ h1 {
 .centre-text {
     text-align: center;
 }
+
+.sect-tech {
+    background-color: var(--secondary-color);
+    color:white;
+}
+
+.para-centre {
+    text-align: center;
+}
+
+.link-page {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
