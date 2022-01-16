@@ -39,6 +39,9 @@ nav ul li {
     color:var(--primary-color);
 }
 
+.nav-link:hover {
+    color: 
+}
 
 /* Image */
 img {
@@ -98,6 +101,7 @@ section {
 footer {
     font-family: PT Sans, sans-serif;
     background-color: var(--background-color);
+    border-radius: 10px 0px 0px 0px;
 }
 
 footer ul {
