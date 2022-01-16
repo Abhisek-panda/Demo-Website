@@ -51,6 +51,7 @@ img {
     margin-bottom: 0.5rem;
     display: block;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 
@@ -60,6 +61,10 @@ h1 {
     text-align: center;
     font-family: PT Sans, sans-serif;
     margin-top: 10px;
+}
+
+span {
+    color:var(--background-color);
 }
 
 section {
