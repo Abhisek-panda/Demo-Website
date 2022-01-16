@@ -72,6 +72,38 @@ section {
     font-family: PT Sans, sans-serif;
 }
 
+#tech-part{
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#head-tech {
+    padding-bottom: 20px;
+}
+
+#project-part {
+    margin-top: 20px;
+}
+
+#project-part h2{
+    padding-bottom:20px;
+}
+
+#project-part div p{
+    padding-bottom: 20px;
+}
+
+#blog-part {
+    margin-top:30px;
+}
+
+#blog-part h2{
+    padding-bottom:20px;
+}
+
+#blog-part div p {
+    padding-bottom: 20px;
+}
 .font { 
     max-width: 600px;
     margin: auto;
