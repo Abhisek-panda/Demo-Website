@@ -61,6 +61,7 @@ h1 {
 
 .para-centre {
     text-align: center;
+    
 }
 
 .link-page {
@@ -93,3 +94,19 @@ h1 {
 }
 
 /* Footer Section */
+
+footer ul {
+    min-width: 100px;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+.footer-link {
+    text-decoration: none;
+    padding:15px;
+}
